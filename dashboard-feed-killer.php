@@ -2,7 +2,7 @@
 /*
 Plugin Name: Dashboard Feed Killer & Customizer
 Description: Instantly removes all default dashboard widgets and replaces them with a clean, custom support widget.
-Version: 1.0.0
+Version: 1.0.1
 Tested up to: 6.9.4
 Requires PHP: 8.3.23
 Author: masato shibuya (Image-box Co., Ltd.)
@@ -79,7 +79,7 @@ class DashboardFeedKiller {
 			</div>
 			<?php endif; ?>
 		</div>
-		<style>#custom_support_widget { width: 100% !important; } #custom_support_widget .inside { margin-top: 0; padding-top: 0; }</style>
+		<style>#custom_support_widget { width: 100% !important; } #custom_support_widget .inside { margin-top: 0; padding-top: 0; } #custom_support_widget .postbox-header .hndle { justify-content: flex-start; }</style>
 		<?php
 	}
 
